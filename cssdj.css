@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document Network DJ */
+.lhhh { color: #fff; font-size: 16px;}
+		.lhhh a { color: inherit; text-decoration: none;}
+		.lhhh img { margin: 0; padding: 0; vertical-align: middle;}
+		.lhhh-head img { width: 100%; height: auto;}
+		.lhhh-list {}
+		.lhhh-list ul { margin: 0; padding: 0; list-style: none;}
+		.lhhh-list ul li { display: flex; align-items: center; height: 50px; padding: 0 10px; border-bottom: solid 1px #a27c74;}
+		.lhhh-list ul li a { padding-left: 5px; flex: 1;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+		@media screen and (max-width:600px){ 
+			.lhhh { font-size: 13px;}
+			.lhhh-list ul li { height: 40px;}
+			.lhhh-list ul li img:nth-child(1) { width: 34px; height: auto;}   
+		}
